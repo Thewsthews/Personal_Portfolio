@@ -9,6 +9,8 @@ A simple and elegant personal portfolio website built with HTML and CSS.
 
 This project is a static website that serves as a personal portfolio to showcase my skills, projects, and professional information. It's designed to be clean, responsive, and easy to navigate.
 
+![y](https://github.com/user-attachments/assets/8f4d6bcf-ef57-494f-9bcb-1a8193c86e04)
+
 ## Features ⚙️
 
 - Home page with a brief introduction
