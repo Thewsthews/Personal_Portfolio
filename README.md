@@ -57,4 +57,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Mathews Etiegni - etiegnim@gmail.com
 
-Project Link: [https://github.com/yourusername/personal-portfolio](https://github.com/Thewsthews/personal-portfolio)
+Project Link: [https://github.com/Thewsthews/personal-portfolio](https://github.com/Thewsthews/personal-portfolio)
