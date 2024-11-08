@@ -1,15 +1,12 @@
 # Personal_Portfolio 🎧
 
-![x](https://github.com/user-attachments/assets/ae5e30d7-7a32-4159-95a1-adad6691f64c)
-
-
 A simple and elegant personal portfolio website built with HTML and CSS.
 
 ## Description 🗒️
 
 This project is a static website that serves as a personal portfolio to showcase my skills, projects, and professional information. It's designed to be clean, responsive, and easy to navigate.
 
-![y](https://github.com/user-attachments/assets/8f4d6bcf-ef57-494f-9bcb-1a8193c86e04)
+![Screenshot (15)](https://github.com/user-attachments/assets/4a110a8d-ac9f-4df9-b35a-33577f630531)
 
 ## Features ⚙️
 
