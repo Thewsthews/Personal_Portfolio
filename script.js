@@ -80,4 +80,23 @@ document.addEventListener('DOMContentLoaded', function(){
     scrollTopButton.addEventListener('click', function(){
         window.scrollTo({top: 0, behavior: 'smooth'});
     });
+
+ // Scroll Reveal Animation
+ const revealElements = document.querySelectorAll('.reveal');
+
+ function revealOnScroll() {
+     const windowHeight = window.innerHeight;
+     revealElements.forEach((element) => {
+         const elementTop = element.getBoundingClientRect().top;
+
+         // If the element is within the viewport height, add the "show" class
+         if (elementTop < windowHeight - 100) {
+             element.classList.add('show');
+         } else {
+             element.classList.remove('show');
+         }
+     });
+ }
+
+ window.addEventListener('scroll', revealOnScroll);
 });
