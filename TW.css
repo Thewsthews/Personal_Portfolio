@@ -17,22 +17,26 @@ a:hover{
     color: #3883 !important;
 }
 
+
 body{
     background-color: #171717;
     padding: 20px;
     animation: forwards 2s;
 }
 
-nav{
+
+
+nav .reveal{
     display: flex;
     gap: 20px;
-}
-nav a{
     opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.5s ease forwards;
+    translate: translateY(20px);
+    transition: opacity 0.6s ease-in-out transform 0.6s ease-in;
 }
-nav .logo{
+
+
+
+nav .reveal .logo{
     height: 64px;
     width: 64px;
     background: #181818;
@@ -118,7 +122,7 @@ nav .links a.active{
 
 .about .left .info .buttons button.hire{
     color: #fff;
-    background: #3888e3;
+    background: #171717;
     border: 1px solid #171717;
 }
 
@@ -164,14 +168,66 @@ footer a.online i{
     margin-top: 70px;
 }
 
+.contact{
+    padding: 20px 60px;
+    background: #181818;
+}
+
+.contact > h2{
+    font-size: 40px;
+    color:#BDBDBD;
+    margin-bottom: 40px;
+}
+
+.contact.items{
+    display: flex;
+    background: #BDBDBD;
+    border-radius: 40px;
+}
+
+
+.contact.items.item{
+    width: 10%;
+    padding: 30px;
+    border: 1px solid #dedede;
+}
+
+.contact .items .item:nth-child(1){
+    border-radius: 12px 0 0 12px;
+}
+
+.contact .items .item:nth-child(2){
+    border-radius: 0 12px 12px 0;
+}
+.contact .items .item a{
+    font-size: 24px;
+    color: #BDBDBD;
+    margin-bottom: 20px;
+}
+
+.contact .items .item p{
+    font-size: 20px;
+    color: #BDBDBD;
+    margin-bottom: 26px;
+    margin-top: 10px;
+}
+
+.contact .items .item button{
+    padding: 8px 20px;
+    background: #171717;
+    padding-top: 12px;
+    margin-bottom: 20px;
+}
+
 .works{
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    flex-direction: column;
 }
 
 .works .left{
-    flex: 1;
+    order: 1;
     background: #181818;
     padding: 60px 40px;
     border-radius:14px;
@@ -208,16 +264,19 @@ footer a.online i{
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
-.works .left .works-list .item .work-info h5-active{
-    color: #3888e3;
-}
+
 
 .works .left .works-list .item .work-info p{
     margin-top: 12px;
     color: #bdbdbd;
     font-size: 20px;
 }
+.works .left .works_list .item .work-info h5:hover{
+    color: #202120;
+}
+
 
 .works .left .works-list .item > p{
     font-size: 20px;
@@ -225,7 +284,7 @@ footer a.online i{
 }
 
 .works .right{
-    flex: 1;
+    order: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40% auto;
@@ -245,7 +304,6 @@ footer a.online i{
     background: #181818;
     border: 1px solid #27272A;
     border-radius: 13px;
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
@@ -257,6 +315,7 @@ footer a.online i{
     font-size: 24px;
     font-weight: 500;
     color: snow;
+    margin-top: auto;
 }
 
 .works .right .item > p{
@@ -276,7 +335,13 @@ footer a.online i{
 .works .right .item.item:not(:first-child) p{
     font-size: 15px;
 }
-
+.item{
+    flex: 1;
+}
+.picture img{
+    max-width: 300px;
+    height: auto;
+}
 footer{
     margin-top: 20px;
     display: flex;
@@ -303,6 +368,10 @@ footer .socials a{
     font-size: 20px;
     font-weight: 500;
     color: #bdbdbd;
+}
+
+.contacts .items .item a{
+    font-size: 18px;
 }
 
 @keyframes fadeInAnimation{
