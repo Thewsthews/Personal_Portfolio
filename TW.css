@@ -436,7 +436,7 @@ footer .socials a{
     }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 480px){
     .about .left .info h2{
         font-size: 30px;
     }
