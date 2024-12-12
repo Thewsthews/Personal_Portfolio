@@ -19,8 +19,8 @@ This project is a static website that serves as a personal portfolio to showcase
 
 ## Technologies Used 🎨
 
-- HTML5
-- CSS3
+- HTML5 🛡️
+- CSS3 🖌️
 
 ## Setup 🔑
 
